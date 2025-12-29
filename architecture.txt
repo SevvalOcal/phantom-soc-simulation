@@ -1,0 +1,7 @@
+Bu projede Phantom SoC (Kapasite Sahtekârlığı) anomalisi
+EV – MITM – CSMS mimarisi kullanılarak simüle edilmiştir.
+
+EV bileşeni gerçek batarya doluluk oranını üretir.
+MITM bileşeni bu veriyi ağ üzerinde değiştirerek sahte SoC oluşturur.
+CSMS bileşeni gelen veriyi analiz eder ve tutarsızlık kontrolü yapar.
+Anomali tespit edildiğinde şarj oturumu durdurulur ve kayıt altına alınır.
